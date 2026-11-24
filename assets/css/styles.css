@@ -15,3 +15,63 @@
 h1{
     color: var(--clr-black);
 }
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 700px;
+}
+j
+.home-cta{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    height: 400px;
+    padding-inline: 1.5rem;
+
+    background-image: url('/assets/img/Darth-IMG.png');
+    background-repeat: no-repeat;
+    background-position: rem;
+    background-size: 300px;
+    
+}
+
+.home-cta > a {
+    background-color: #E02D2D;
+    width: fit-content; /*cabe apenas o conteudo nada mais*/
+
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+
+    font-size: 14px;
+    color: var(--clr-white);
+    text-decoration: none;
+
+    transition: transform 150ms;
+}
+
+.home-cta > a:hover { /*propriedades alteradas quando passa o mouse em cima*/
+    transform: scale(1.02);
+}
+
+.home-heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-heading > h1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+
+    margin: 0;
+}
+
+.home-heading > p{
+    line-height: 24px;
+
+    margin: 0;
+}
