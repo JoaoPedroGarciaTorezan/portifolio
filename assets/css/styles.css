@@ -54,13 +54,14 @@ header a{
 .home-cta{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2.5rem;
     height: 400px;
     padding-inline: 1.5rem;
 
     background-image: url('/assets/img/Darth-IMG.png');
     background-repeat: no-repeat;
-    background-position: rem;
+    background-position: left bottom;
     background-size: 300px;
     
 }
