@@ -14,6 +14,10 @@
 }
 
 .btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
     background-color: #E02D2D;
     width: fit-content; /*cabe apenas o conteudo nada mais*/
 
@@ -199,6 +203,10 @@ header a{
 
 .base-list > li {
     background-color: var(--clr-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     padding: 1rem;
     font-size: 18px;
     font-weight: 600;
@@ -237,10 +245,23 @@ header a{
     list-style: none;
 }
 
-#contato > ul > li {
+#contato > ul > li,
+#contato > ul > li > a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
     font-size: 18px;
     font-weight: 500;
-} 
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 2rem;            
+}
 
 #contato a {
     color: var(--clr-black);
