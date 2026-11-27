@@ -329,7 +329,8 @@ header a{
     .servicos-list > li {
         justify-content: start;
         height: 64px;
-        max-width: 350px;
+        max-width: 340px;
+        width: 100%;
     }
 
 }
